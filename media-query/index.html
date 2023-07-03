@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @charset "UTF-8";
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .conteiner{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .block{
+            width: 20%;
+            height: 40%;
+            background-color: rgb(63, 62, 62);
+        }
+
+        @media (max-width: 700px) {
+            .conteiner{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                justify-content: center;
+                align-items: center ;
+            }
+            .block{
+                background-color: red;
+            }
+        }
+
+        @media (min-width:1024px) {
+            .conteiner{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                justify-content: space-around;
+                align-items: center ;
+            }
+            .block{
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veritatis laborum numquam ad itaque suscipit maiores!</p>
+        </div>
+        <div class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem porro tempore repellat assumenda expedita sapiente consequatur eveniet saepe</p>
+        </div>
+        <div class="block">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex excepturi earum porro atque, ea odio tempora recusandae labore expedita .</p>
+        </div>
+        <div class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus doloribus at optio, veniam inventore numquam repudiandae velit. .</p>
+        </div>
+    </div>
+</body>
+</html>
