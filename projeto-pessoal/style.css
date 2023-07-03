@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vw;
+    height: 7vh;
+    background-color:  #008a00;
+}
+
+main{
+    margin-top: 100px;
+    width: 100vw;
+    height: 614.61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto',sans-serif;
+}
+.informacoes{
+    width: 396px;
+    height: 200.11px;
+    background-color:  rgb(232, 244, 253);
+    color:  rgb(13, 60, 97);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+ul{
+    margin-top: 20px;
+}
+ul,li{
+    margin-bottom: 10px;
+}
+
+a:link{
+    text-decoration: none;
+    margin-left: 5px;
+}
+.login{
+    width: 396px;
+    height: 614.61px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tela-login{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input[type="text"]{
+    width: 396px;
+    height: 56px;
+    border-radius: 5px;
+    border:solid 1px rgb(131, 128, 128);
+}
+
+
+button{
+    width: 396px;
+    height: 40px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    background-color: rgb(204, 200, 200);
+    opacity: 0.4;
+    border: solid 1px rgb(112, 109, 109);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: rgb(87, 87, 100);
+}
+
+input[type="text"]::placeholder{
+    position: relative;
+    left:15px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+}
+
+.check{
+    display: flex;
+    gap: 10px;
+}
+
+.check .checkbox{
+    border: 0;
+    border: solid 10px rgb(80, 80, 80);
+}
+footer{
+   width: 100vw;
+   height: 18vh;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
